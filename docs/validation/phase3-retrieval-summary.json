@@ -1,0 +1,65 @@
+{
+  "status": "partial",
+  "elapsed_seconds": 38.67,
+  "budget": {
+    "reserved": {
+      "searches": 19,
+      "tavily_credits": 34,
+      "model_calls": 11,
+      "input_tokens": 44955,
+      "output_tokens": 9424,
+      "extracted_urls": 15
+    },
+    "limits": {
+      "searches": 24,
+      "extracted_urls": 20,
+      "tavily_credits": 60,
+      "model_calls": 28,
+      "input_tokens": 60000,
+      "output_tokens": 12000
+    }
+  },
+  "reconciled_metric_checks": {
+    "checked": 60,
+    "passed": 60
+  },
+  "summary": {
+    "companies": 4,
+    "financial_metrics": 60,
+    "available_metrics": 60,
+    "supported_findings": 23,
+    "missing_findings": 1,
+    "sources": 79
+  },
+  "date": "2026-10-31",
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "execution": "FastAPI TestClient -> real LangGraph -> SEC/Nebius/Tavily; no fixture inputs to research",
+  "required_fields": [
+    "products_brands",
+    "differentiators",
+    "customers",
+    "positioning",
+    "geography",
+    "recent_developments"
+  ],
+  "pricing_scope": "Excluded from default research and completion requirements by explicit user instruction.",
+  "reported_model_tokens": {
+    "prompt_tokens": 8239,
+    "completion_tokens": 2850,
+    "total_tokens": 11089
+  },
+  "missing_fields": {
+    "HSY": [],
+    "MDLZ": [],
+    "KHC": [
+      "recent_developments"
+    ],
+    "GIS": []
+  },
+  "limitations": [
+    "KHC recent developments not supported in this run; report remains partial.",
+    "Citation/exact-quote checks do not independently establish entailment.",
+    "Live search/model results vary; this single run is not a guarantee of future coverage.",
+    "In-process API transport; external socket/browser SSE still unverified."
+  ]
+}

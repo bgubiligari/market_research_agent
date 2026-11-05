@@ -1,0 +1,24 @@
+[project]
+name = "market-research-agent"
+version = "0.1.0"
+description = "Stateful competitor research with cited evidence and financial comparisons"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "httpx>=0.28,<0.29",
+    "langchain-core>=1,<2",
+    "langgraph>=1,<2",
+    "pydantic>=2.10,<3",
+    "pydantic-settings>=2.10,<3",
+    "uvicorn>=0.34,<1",
+]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["apps/api/src"]

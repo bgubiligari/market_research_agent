@@ -1,0 +1,145 @@
+{
+  "$defs": {
+    "CompanyIdentity": {
+      "additionalProperties": false,
+      "properties": {
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "legal_name": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "website": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Website",
+          "type": "string"
+        },
+        "ticker": {
+          "anyOf": [
+            {
+              "maxLength": 20,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ticker"
+        },
+        "cik": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{10}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cik"
+        },
+        "aliases": {
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "resolution_source_ids": {
+          "items": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Resolution Source Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "company_id",
+        "legal_name",
+        "website",
+        "resolution_source_ids"
+      ],
+      "title": "CompanyIdentity",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "plan_version": {
+      "minimum": 1,
+      "title": "Plan Version",
+      "type": "integer"
+    },
+    "target": {
+      "$ref": "#/$defs/CompanyIdentity"
+    },
+    "competitors": {
+      "items": {
+        "$ref": "#/$defs/CompanyIdentity"
+      },
+      "maxItems": 3,
+      "minItems": 3,
+      "title": "Competitors",
+      "type": "array"
+    },
+    "geography": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Geography"
+    },
+    "focus": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Focus"
+    },
+    "news_lookback_days": {
+      "maximum": 365,
+      "minimum": 1,
+      "title": "News Lookback Days",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "plan_version",
+    "target",
+    "competitors",
+    "news_lookback_days"
+  ],
+  "title": "ConfirmedPlan",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

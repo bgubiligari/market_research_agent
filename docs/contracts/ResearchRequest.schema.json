@@ -1,0 +1,67 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "target": {
+      "maxLength": 300,
+      "minLength": 1,
+      "title": "Target",
+      "type": "string"
+    },
+    "competitors": {
+      "items": {
+        "maxLength": 300,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 3,
+      "title": "Competitors",
+      "type": "array"
+    },
+    "discovery_mode": {
+      "default": false,
+      "title": "Discovery Mode",
+      "type": "boolean"
+    },
+    "geography": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Geography"
+    },
+    "focus": {
+      "anyOf": [
+        {
+          "maxLength": 2000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Focus"
+    },
+    "news_lookback_days": {
+      "default": 90,
+      "maximum": 365,
+      "minimum": 1,
+      "title": "News Lookback Days",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "target"
+  ],
+  "title": "ResearchRequest",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

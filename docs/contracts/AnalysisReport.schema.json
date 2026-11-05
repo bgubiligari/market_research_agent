@@ -1,0 +1,612 @@
+{
+  "$defs": {
+    "CompanyIdentity": {
+      "additionalProperties": false,
+      "properties": {
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "legal_name": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Legal Name",
+          "type": "string"
+        },
+        "website": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Website",
+          "type": "string"
+        },
+        "ticker": {
+          "anyOf": [
+            {
+              "maxLength": 20,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ticker"
+        },
+        "cik": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{10}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Cik"
+        },
+        "aliases": {
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Aliases",
+          "type": "array"
+        },
+        "resolution_source_ids": {
+          "items": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Resolution Source Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "company_id",
+        "legal_name",
+        "website",
+        "resolution_source_ids"
+      ],
+      "title": "CompanyIdentity",
+      "type": "object"
+    },
+    "ConfirmedPlan": {
+      "additionalProperties": false,
+      "properties": {
+        "plan_version": {
+          "minimum": 1,
+          "title": "Plan Version",
+          "type": "integer"
+        },
+        "target": {
+          "$ref": "#/$defs/CompanyIdentity"
+        },
+        "competitors": {
+          "items": {
+            "$ref": "#/$defs/CompanyIdentity"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "title": "Competitors",
+          "type": "array"
+        },
+        "geography": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Geography"
+        },
+        "focus": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Focus"
+        },
+        "news_lookback_days": {
+          "maximum": 365,
+          "minimum": 1,
+          "title": "News Lookback Days",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "plan_version",
+        "target",
+        "competitors",
+        "news_lookback_days"
+      ],
+      "title": "ConfirmedPlan",
+      "type": "object"
+    },
+    "EvidenceSource": {
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Source Id",
+          "type": "string"
+        },
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        },
+        "title": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "publisher": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "source_type": {
+          "enum": [
+            "official",
+            "filing",
+            "news",
+            "other"
+          ],
+          "title": "Source Type",
+          "type": "string"
+        },
+        "published_at": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Published At"
+        },
+        "retrieved_at": {
+          "format": "date-time",
+          "title": "Retrieved At",
+          "type": "string"
+        },
+        "excerpt": {
+          "maxLength": 12000,
+          "minLength": 1,
+          "title": "Excerpt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "company_id",
+        "url",
+        "title",
+        "publisher",
+        "source_type",
+        "retrieved_at",
+        "excerpt"
+      ],
+      "title": "EvidenceSource",
+      "type": "object"
+    },
+    "FinancialFact": {
+      "additionalProperties": false,
+      "properties": {
+        "fact_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Fact Id",
+          "type": "string"
+        },
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "concept": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Concept",
+          "type": "string"
+        },
+        "value": {
+          "title": "Value",
+          "type": "string"
+        },
+        "unit": {
+          "pattern": "^[A-Z]{3}$",
+          "title": "Unit",
+          "type": "string"
+        },
+        "period": {
+          "$ref": "#/$defs/FiscalPeriod"
+        },
+        "form": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Form",
+          "type": "string"
+        },
+        "filing_date": {
+          "format": "date",
+          "title": "Filing Date",
+          "type": "string"
+        },
+        "accession": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Accession",
+          "type": "string"
+        },
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        }
+      },
+      "required": [
+        "fact_id",
+        "company_id",
+        "concept",
+        "value",
+        "unit",
+        "period",
+        "form",
+        "filing_date",
+        "accession",
+        "source_url"
+      ],
+      "title": "FinancialFact",
+      "type": "object"
+    },
+    "FinancialMetric": {
+      "additionalProperties": false,
+      "properties": {
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "metric": {
+          "$ref": "#/$defs/MetricName"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Value"
+        },
+        "unit": {
+          "pattern": "^(percent|[A-Z]{3})$",
+          "title": "Unit",
+          "type": "string"
+        },
+        "period": {
+          "$ref": "#/$defs/FiscalPeriod"
+        },
+        "input_fact_ids": {
+          "items": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Input Fact Ids",
+          "type": "array"
+        },
+        "breakdown": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MetricBreakdown"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "formula_version": {
+          "const": "1.0",
+          "default": "1.0",
+          "title": "Formula Version",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "available",
+            "unavailable",
+            "not_meaningful"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "maxLength": 2000,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "company_id",
+        "metric",
+        "value",
+        "unit",
+        "period",
+        "status"
+      ],
+      "title": "FinancialMetric",
+      "type": "object"
+    },
+    "Finding": {
+      "additionalProperties": false,
+      "properties": {
+        "company_id": {
+          "maxLength": 128,
+          "minLength": 1,
+          "title": "Company Id",
+          "type": "string"
+        },
+        "field": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Field",
+          "type": "string"
+        },
+        "statement": {
+          "maxLength": 2000,
+          "minLength": 1,
+          "title": "Statement",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "maxLength": 128,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "basis": {
+          "enum": [
+            "observed",
+            "inferred"
+          ],
+          "title": "Basis",
+          "type": "string"
+        },
+        "evidence_status": {
+          "enum": [
+            "supported",
+            "conflicting",
+            "missing",
+            "not_applicable"
+          ],
+          "title": "Evidence Status",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "maxLength": 2000,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "company_id",
+        "field",
+        "statement",
+        "basis",
+        "evidence_status"
+      ],
+      "title": "Finding",
+      "type": "object"
+    },
+    "FiscalPeriod": {
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "format": "date",
+          "title": "Start",
+          "type": "string"
+        },
+        "end": {
+          "format": "date",
+          "title": "End",
+          "type": "string"
+        },
+        "fiscal_year": {
+          "maximum": 2200,
+          "minimum": 1900,
+          "title": "Fiscal Year",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "fiscal_year"
+      ],
+      "title": "FiscalPeriod",
+      "type": "object"
+    },
+    "MetricBreakdown": {
+      "additionalProperties": false,
+      "properties": {
+        "current_amount": {
+          "title": "Current Amount",
+          "type": "string"
+        },
+        "prior_amount": {
+          "title": "Prior Amount",
+          "type": "string"
+        },
+        "absolute_change": {
+          "title": "Absolute Change",
+          "type": "string"
+        },
+        "currency": {
+          "pattern": "^[A-Z]{3}$",
+          "title": "Currency",
+          "type": "string"
+        }
+      },
+      "required": [
+        "current_amount",
+        "prior_amount",
+        "absolute_change",
+        "currency"
+      ],
+      "title": "MetricBreakdown",
+      "type": "object"
+    },
+    "MetricName": {
+      "enum": [
+        "revenue",
+        "revenue_growth",
+        "gross_margin",
+        "operating_margin",
+        "operating_cash_flow_growth"
+      ],
+      "title": "MetricName",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "as_of": {
+      "format": "date-time",
+      "title": "As Of",
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "completed",
+        "partial"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "plan": {
+      "$ref": "#/$defs/ConfirmedPlan"
+    },
+    "briefing": {
+      "items": {
+        "$ref": "#/$defs/Finding"
+      },
+      "title": "Briefing",
+      "type": "array"
+    },
+    "findings": {
+      "items": {
+        "$ref": "#/$defs/Finding"
+      },
+      "title": "Findings",
+      "type": "array"
+    },
+    "financial_facts": {
+      "items": {
+        "$ref": "#/$defs/FinancialFact"
+      },
+      "title": "Financial Facts",
+      "type": "array"
+    },
+    "financial_metrics": {
+      "items": {
+        "$ref": "#/$defs/FinancialMetric"
+      },
+      "title": "Financial Metrics",
+      "type": "array"
+    },
+    "sources": {
+      "items": {
+        "$ref": "#/$defs/EvidenceSource"
+      },
+      "title": "Sources",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "maxLength": 2000,
+        "minLength": 1,
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "as_of",
+    "status",
+    "plan",
+    "briefing",
+    "findings",
+    "financial_facts",
+    "financial_metrics",
+    "sources"
+  ],
+  "title": "AnalysisReport",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

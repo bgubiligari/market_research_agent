@@ -1,0 +1,1174 @@
+{
+  "HSY": {
+    "reviewed_on": "2026-10-31",
+    "currency": "USD",
+    "base_scale": 1,
+    "filings": [
+      "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/hsy-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/47111/000004711125000014/hsy-20241231.htm"
+    ],
+    "statement_sections": "Consolidated income/earnings statements and cash flows; older filing supplies fourth-year growth denominators.",
+    "notes": "Reported consolidated results; acquisitions including LesserEvil and Sour Strips affect comparability. No organic adjustment.",
+    "facts": {
+      "revenue": [
+        {
+          "fact_id": "0ff01a32679c944003811a544a204999",
+          "company_id": "HSY",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "11692576000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "096a18128ddd3be697dcbb2fc648a42b",
+          "company_id": "HSY",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "11202263000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "0a9843463ed7e3658d118133d55e4c10",
+          "company_id": "HSY",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "11164992000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "90c7d2621d871bf0509d1f7c15ec0bbb",
+          "company_id": "HSY",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "10419294000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-01-01",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-18",
+          "accession": "0000047111-25-000014",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000004711125000014/"
+        }
+      ],
+      "gross_profit": [
+        {
+          "fact_id": "1c793a251c926469aeaea1086298657c",
+          "company_id": "HSY",
+          "concept": "us-gaap:GrossProfit",
+          "value": "3922691000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "ae95533f30911aa91dac325bed823a1a",
+          "company_id": "HSY",
+          "concept": "us-gaap:GrossProfit",
+          "value": "5300888000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "ba48af290baf5f703b3ca78c49049c44",
+          "company_id": "HSY",
+          "concept": "us-gaap:GrossProfit",
+          "value": "4997816000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        }
+      ],
+      "operating_income": [
+        {
+          "fact_id": "02c4f0c3796f5fecb9740cbfbb8abff4",
+          "company_id": "HSY",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "1441528000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "0cff4c85711676ed176c2fa0766798bb",
+          "company_id": "HSY",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "2898232000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "f61c2fc5de32e70b56a6d83013ef7c22",
+          "company_id": "HSY",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "2560867000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        }
+      ],
+      "ocf": [
+        {
+          "fact_id": "0a7b3a819e56e5c94ca12b4033a322f1",
+          "company_id": "HSY",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2277367000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "baee831aa26bc3b079c2f1faa1081fe1",
+          "company_id": "HSY",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2531596000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "974e24a5f418a52b18f4ca77cc0f1b5e",
+          "company_id": "HSY",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2323190000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-17",
+          "accession": "0001628280-26-008586",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000162828026008586/"
+        },
+        {
+          "fact_id": "99e6f76ae8334e1d09eb0cec7c19a69e",
+          "company_id": "HSY",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2327837000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-01-01",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-18",
+          "accession": "0000047111-25-000014",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/47111/000004711125000014/"
+        }
+      ]
+    },
+    "expected_inputs": {
+      "revenue": [
+        "11692576000",
+        "11202263000",
+        "11164992000",
+        "10419294000"
+      ],
+      "gross_profit": [
+        "3922691000",
+        "5300888000",
+        "4997816000"
+      ],
+      "operating_income": [
+        "1441528000",
+        "2898232000",
+        "2560867000"
+      ],
+      "ocf": [
+        "2277367000",
+        "2531596000",
+        "2323190000",
+        "2327837000"
+      ]
+    },
+    "expected_metrics": [
+      [
+        "11692576000",
+        "4.376910272504760868406678200",
+        "33.54856106986176527738626629",
+        "12.32857498638452296568352431",
+        "-10.04224212710084863461626579"
+      ],
+      [
+        "11202263000",
+        "0.333820212320797005497182600",
+        "47.31979600907423794638636854",
+        "25.87184393010590806518290099",
+        "8.970682552869115311274583700"
+      ],
+      [
+        "11164992000",
+        "7.156895659149266735346943900",
+        "44.76327434896505075865705949",
+        "22.93657711532619100846646375",
+        "-0.1996273794084379619363383300"
+      ]
+    ],
+    "tolerance": "0.000001"
+  },
+  "MDLZ": {
+    "reviewed_on": "2026-10-31",
+    "currency": "USD",
+    "base_scale": 1,
+    "filings": [
+      "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/mdlz-20251231.htm",
+      "https://www.sec.gov/Archives/edgar/data/1103982/000110398225000030/mdlz-20241231.htm"
+    ],
+    "statement_sections": "Consolidated income/earnings statements and cash flows; older filing supplies fourth-year growth denominators.",
+    "notes": "Reported consolidated results include acquisitions, divestitures, currency and commodity effects; not organic or adjusted figures.",
+    "facts": {
+      "revenue": [
+        {
+          "fact_id": "d720cb51896f70a67558ffbc711883bd",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:Revenues",
+          "value": "38537000000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "e294d23c1f4e66403a066c8f1eef3a73",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:Revenues",
+          "value": "36441000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "0652b400599a8c821e1297f7fcea5a14",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:Revenues",
+          "value": "36016000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "ff2c13490d785261e42be1c9a7e6e3b4",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:Revenues",
+          "value": "31496000000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-01-01",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-05",
+          "accession": "0001103982-25-000030",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000110398225000030/"
+        }
+      ],
+      "gross_profit": [
+        {
+          "fact_id": "75cc68cd90e5bd6afa83daee205b2e26",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:GrossProfit",
+          "value": "10935000000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "257a8bcda258510f4308b277356c19bb",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:GrossProfit",
+          "value": "14257000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "706adba5f9f9b6ffe2962fbf4a0682e9",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:GrossProfit",
+          "value": "13764000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        }
+      ],
+      "operating_income": [
+        {
+          "fact_id": "4840bc6cfc3db5afa66f4a1af5ee4033",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "3548000000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "e6003d0dff1b00ca93f74abc2ac15ea0",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "6345000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "70ab769bc0eef69f8a6dbd4d35de5f82",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "5502000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        }
+      ],
+      "ocf": [
+        {
+          "fact_id": "7d4c46c1d2a11ec0e3850394925b9e40",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "4514000000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-01-01",
+            "end": "2025-12-31",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "e1b575d090eb128ab140027d8cb03588",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "4910000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "0aecc176e8762ba9357c2aacb4d787c8",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "4714000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-31",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-04",
+          "accession": "0001628280-26-005345",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000162828026005345/"
+        },
+        {
+          "fact_id": "2971c40d31c2d91fb7420931a5a059c5",
+          "company_id": "MDLZ",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "3908000000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-01-01",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-05",
+          "accession": "0001103982-25-000030",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1103982/000110398225000030/"
+        }
+      ]
+    },
+    "expected_inputs": {
+      "revenue": [
+        "38537000000",
+        "36441000000",
+        "36016000000",
+        "31496000000"
+      ],
+      "gross_profit": [
+        "10935000000",
+        "14257000000",
+        "13764000000"
+      ],
+      "operating_income": [
+        "3548000000",
+        "6345000000",
+        "5502000000"
+      ],
+      "ocf": [
+        "4514000000",
+        "4910000000",
+        "4714000000",
+        "3908000000"
+      ]
+    },
+    "expected_metrics": [
+      [
+        "38537000000",
+        "5.751763123953788315359073600",
+        "28.37532760723460570360951813",
+        "9.206736383216129953032150920",
+        "-8.065173116089613034623217920"
+      ],
+      [
+        "36441000000",
+        "1.180031097290093291870279900",
+        "39.12351472242803435690568316",
+        "17.41170659422079525808841689",
+        "4.157827747136190072125583400"
+      ],
+      [
+        "36016000000",
+        "14.35102870205740411480822960",
+        "38.21634828964904486894713461",
+        "15.27654375832963127498889382",
+        "20.62436028659160696008188330"
+      ]
+    ],
+    "tolerance": "0.000001"
+  },
+  "KHC": {
+    "reviewed_on": "2026-10-31",
+    "currency": "USD",
+    "base_scale": 1,
+    "filings": [
+      "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/khc-20251227.htm",
+      "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000011/khc-20241228.htm"
+    ],
+    "statement_sections": "Consolidated income/earnings statements and cash flows; older filing supplies fourth-year growth denominators.",
+    "notes": "Tax-inclusive concept maps to consolidated net sales. 2022 has 53 weeks; 2023\u20132025 have 52. 2025 operating loss includes goodwill/intangible impairments; retain GAAP loss.",
+    "facts": {
+      "revenue": [
+        {
+          "fact_id": "b11d5df424083b75288b06bf47e25273",
+          "company_id": "KHC",
+          "concept": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+          "value": "24942000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-12-29",
+            "end": "2025-12-27",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "5e27263b2fef76dd3701faac7798fd80",
+          "company_id": "KHC",
+          "concept": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+          "value": "25846000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-12-31",
+            "end": "2024-12-28",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "0d38635c8557193973a07c79d80c163a",
+          "company_id": "KHC",
+          "concept": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+          "value": "26640000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-30",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "1a2ca0d122815c7ee4f30386d56a73a8",
+          "company_id": "KHC",
+          "concept": "us-gaap:RevenueFromContractWithCustomerIncludingAssessedTax",
+          "value": "26485000000",
+          "unit": "USD",
+          "period": {
+            "start": "2021-12-26",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-13",
+          "accession": "0001637459-25-000011",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000011/"
+        }
+      ],
+      "gross_profit": [
+        {
+          "fact_id": "43ac36bb0ad639cc762b5b0c52a2142c",
+          "company_id": "KHC",
+          "concept": "us-gaap:GrossProfit",
+          "value": "8309000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-12-29",
+            "end": "2025-12-27",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "64b89df5db13bf982937173b7de97b53",
+          "company_id": "KHC",
+          "concept": "us-gaap:GrossProfit",
+          "value": "8968000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-12-31",
+            "end": "2024-12-28",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "a60ff327cd74f0ca1471ce51027ca71a",
+          "company_id": "KHC",
+          "concept": "us-gaap:GrossProfit",
+          "value": "8926000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-30",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        }
+      ],
+      "operating_income": [
+        {
+          "fact_id": "f6b6d5a8a472d20569a5a02c1799a181",
+          "company_id": "KHC",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "-4669000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-12-29",
+            "end": "2025-12-27",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "43810fd0fcd609c72f63502907ebf9d1",
+          "company_id": "KHC",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "1683000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-12-31",
+            "end": "2024-12-28",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "1dc2957401760c2db4ff5e5b013e472f",
+          "company_id": "KHC",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "4572000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-30",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        }
+      ],
+      "ocf": [
+        {
+          "fact_id": "e0bc0cff3f01960cd0bc2f2f08ffe445",
+          "company_id": "KHC",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "4462000000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-12-29",
+            "end": "2025-12-27",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "efa59b4efa55cef378d982192e826ab0",
+          "company_id": "KHC",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "4184000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-12-31",
+            "end": "2024-12-28",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "7bff09bd4a55da73a7d0ae1a47cdd6da",
+          "company_id": "KHC",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "3976000000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-01-01",
+            "end": "2023-12-30",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2026-02-12",
+          "accession": "0001637459-26-000009",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745926000009/"
+        },
+        {
+          "fact_id": "10ffbc0251caef284ff741f2c0d31c72",
+          "company_id": "KHC",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2469000000",
+          "unit": "USD",
+          "period": {
+            "start": "2021-12-26",
+            "end": "2022-12-31",
+            "fiscal_year": 2022
+          },
+          "form": "10-K",
+          "filing_date": "2025-02-13",
+          "accession": "0001637459-25-000011",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1637459/000163745925000011/"
+        }
+      ]
+    },
+    "expected_inputs": {
+      "revenue": [
+        "24942000000",
+        "25846000000",
+        "26640000000",
+        "26485000000"
+      ],
+      "gross_profit": [
+        "8309000000",
+        "8968000000",
+        "8926000000"
+      ],
+      "operating_income": [
+        "-4669000000",
+        "1683000000",
+        "4572000000"
+      ],
+      "ocf": [
+        "4462000000",
+        "4184000000",
+        "3976000000",
+        "2469000000"
+      ]
+    },
+    "expected_metrics": [
+      [
+        "24942000000",
+        "-3.497639866903969666486110040",
+        "33.31328682543500922139363323",
+        "-18.71942907545505572929195734",
+        "6.644359464627151051625239000"
+      ],
+      [
+        "25846000000",
+        "-2.980480480480480480480480480",
+        "34.69782558229513270912326859",
+        "6.511645902654182465371817689",
+        "5.231388329979879275653923500"
+      ],
+      [
+        "26640000000",
+        "0.585236926562205021710402100",
+        "33.50600600600600600600600601",
+        "17.16216216216216216216216216",
+        "61.03685702713649250708788980"
+      ]
+    ],
+    "tolerance": "0.000001"
+  },
+  "GIS": {
+    "reviewed_on": "2026-10-31",
+    "currency": "USD",
+    "base_scale": 1,
+    "filings": [
+      "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/gis-20260531.htm",
+      "https://www.sec.gov/Archives/edgar/data/40704/000119312525147079/d938443d10k.htm"
+    ],
+    "statement_sections": "Consolidated income/earnings statements and cash flows; older filing supplies fourth-year growth denominators.",
+    "notes": "Gross profit derived from net sales less cost of sales. FY2026 has 53 weeks versus 52 in FY2024/2025. Yogurt divestitures, Whitebridge acquisition, impairment and presentation reclassifications affect comparability; no organic adjustment.",
+    "facts": {
+      "revenue": [
+        {
+          "fact_id": "d5bfe81858608a6df57fb5672dcd5304",
+          "company_id": "GIS",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "18424600000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-05-26",
+            "end": "2026-05-31",
+            "fiscal_year": 2026
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "142e6c95c079ef7892f2f2911656dff5",
+          "company_id": "GIS",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "19486600000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-05-27",
+            "end": "2025-05-25",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "08e9a13f1193ed53188e44b985057c7a",
+          "company_id": "GIS",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "19857200000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-05-29",
+            "end": "2024-05-26",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "c4111ddfeb833e10cb087c06d016c267",
+          "company_id": "GIS",
+          "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+          "value": "20094200000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-05-30",
+            "end": "2023-05-28",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2025-06-26",
+          "accession": "0001193125-25-147079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000119312525147079/"
+        }
+      ],
+      "cost_of_sales": [
+        {
+          "fact_id": "f787a1bd17cad6b5e729a0888b523630",
+          "company_id": "GIS",
+          "concept": "us-gaap:CostOfGoodsAndServicesSold",
+          "value": "12228900000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-05-26",
+            "end": "2026-05-31",
+            "fiscal_year": 2026
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "a05958f08b07a08da013306fbf75609a",
+          "company_id": "GIS",
+          "concept": "us-gaap:CostOfGoodsAndServicesSold",
+          "value": "12753600000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-05-27",
+            "end": "2025-05-25",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "3757efbc103936ea65c8c67e0003ba2d",
+          "company_id": "GIS",
+          "concept": "us-gaap:CostOfGoodsAndServicesSold",
+          "value": "12925100000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-05-29",
+            "end": "2024-05-26",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        }
+      ],
+      "operating_income": [
+        {
+          "fact_id": "fe68813589f46f4969488305308b9117",
+          "company_id": "GIS",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "885800000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-05-26",
+            "end": "2026-05-31",
+            "fiscal_year": 2026
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "d392a8609debea2eef509cb359722721",
+          "company_id": "GIS",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "3304800000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-05-27",
+            "end": "2025-05-25",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "5e37f011a9366b8fd9ecf8f8dc52f896",
+          "company_id": "GIS",
+          "concept": "us-gaap:OperatingIncomeLoss",
+          "value": "3431700000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-05-29",
+            "end": "2024-05-26",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        }
+      ],
+      "ocf": [
+        {
+          "fact_id": "05ca768b5b8ee9db1daacf744d1f4ff1",
+          "company_id": "GIS",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2166200000",
+          "unit": "USD",
+          "period": {
+            "start": "2025-05-26",
+            "end": "2026-05-31",
+            "fiscal_year": 2026
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "7628a06168349ec93722e728d788a826",
+          "company_id": "GIS",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2918200000",
+          "unit": "USD",
+          "period": {
+            "start": "2024-05-27",
+            "end": "2025-05-25",
+            "fiscal_year": 2025
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "47e4155788c78935d7595d93667c14d3",
+          "company_id": "GIS",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "3302600000",
+          "unit": "USD",
+          "period": {
+            "start": "2023-05-29",
+            "end": "2024-05-26",
+            "fiscal_year": 2024
+          },
+          "form": "10-K",
+          "filing_date": "2026-07-01",
+          "accession": "0001628280-26-046466",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000162828026046466/"
+        },
+        {
+          "fact_id": "076b207a5b0a49c9cbf2d2174554a44b",
+          "company_id": "GIS",
+          "concept": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+          "value": "2778600000",
+          "unit": "USD",
+          "period": {
+            "start": "2022-05-30",
+            "end": "2023-05-28",
+            "fiscal_year": 2023
+          },
+          "form": "10-K",
+          "filing_date": "2025-06-26",
+          "accession": "0001193125-25-147079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/40704/000119312525147079/"
+        }
+      ]
+    },
+    "expected_inputs": {
+      "revenue": [
+        "18424600000",
+        "19486600000",
+        "19857200000",
+        "20094200000"
+      ],
+      "cost_of_sales": [
+        "12228900000",
+        "12753600000",
+        "12925100000"
+      ],
+      "operating_income": [
+        "885800000",
+        "3304800000",
+        "3431700000"
+      ],
+      "ocf": [
+        "2166200000",
+        "2918200000",
+        "3302600000",
+        "2778600000"
+      ]
+    },
+    "expected_metrics": [
+      [
+        "18424600000",
+        "-5.449898904888487473443289230",
+        "33.62732433811317477720004776",
+        "4.807702745242773248808657990",
+        "-25.76930984853676924131313824"
+      ],
+      [
+        "19486600000",
+        "-1.866325564530749551799850940",
+        "34.55194851846910184434431866",
+        "16.95934642266993729024047294",
+        "-11.63931447950099921274147641"
+      ],
+      [
+        "19857200000",
+        "-1.179444814921718704899921370",
+        "34.90975565537940898011804283",
+        "17.28189271397780150272948855",
+        "18.85841790829914345353775280"
+      ]
+    ],
+    "tolerance": "0.000001"
+  }
+}

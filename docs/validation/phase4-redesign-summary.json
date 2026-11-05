@@ -1,0 +1,54 @@
+{
+  "checked_on": "2026-11-01",
+  "timezone": "America/Los_Angeles",
+  "revision": "Approved research workspace redesign",
+  "transport": "Chrome \u2192 production Next.js route handler \u2192 external offline Uvicorn \u2192 actual LangGraph with offline Research replacement",
+  "paid_calls": 0,
+  "live_provider_validation": "Not repeated; prior phase4-browser-live-summary.json is historical evidence",
+  "checks": {
+    "python_tests": {
+      "passed": 78
+    },
+    "frontend_unit_tests": {
+      "passed": 5
+    },
+    "browser_tests": {
+      "passed": 7,
+      "duration_seconds": 18.4
+    },
+    "typescript": "passed",
+    "production_build": "passed (Next.js webpack)",
+    "schema_export": "passed",
+    "compileall": "passed"
+  },
+  "browser_coverage": [
+    "approval barrier",
+    "complete and partial reports",
+    "reload and SSE reconnect with replay cursor",
+    "cancellation before and during research",
+    "retained cancelled report labeling",
+    "expiry and unknown handles",
+    "capacity/configuration recovery",
+    "four-company six-field matrix",
+    "source search and drawer",
+    "Escape and focus return",
+    "exact financial filing inputs",
+    "company progress and retained activity",
+    "390px mobile navigation and overflow"
+  ],
+  "browser_page_errors_in_layout_test": [],
+  "fixture_policy": "Harness explicitly labels synthetic qualitative evidence and reviewed financial fixtures OFFLINE TEST; real API never imports it. Tests require offline readiness marker before creating runs.",
+  "screenshots": {
+    "setup": "/tmp/project3a-redesign-setup.png",
+    "review": "/tmp/project3a-redesign-review.png",
+    "overview": "/tmp/project3a-redesign-overview.png",
+    "financials": "/tmp/project3a-redesign-financials.png",
+    "mobile": "/tmp/project3a-redesign-mobile.png"
+  },
+  "limitations": [
+    "No new paid provider run for company telemetry",
+    "Chrome only; mobile viewport rather than physical device",
+    "No independent accessibility audit",
+    "No new executive synthesis, scoring, pricing, exports, accounts or saved projects"
+  ]
+}

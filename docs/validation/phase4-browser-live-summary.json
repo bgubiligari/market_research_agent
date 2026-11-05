@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-31T17:35:03.160Z",
+  "transport": "Chrome \u2192 Next.js route handler \u2192 external Uvicorn \u2192 real LangGraph/SEC/Nebius/Tavily",
+  "status": "partial",
+  "elapsed_seconds": 45.38,
+  "post_approval_seconds": 33.799,
+  "financial_values": 60,
+  "available_values": 60,
+  "missing": [
+    {
+      "company_id": "company-2",
+      "field": "customers",
+      "ticker": "KHC"
+    }
+  ],
+  "source_count": 78,
+  "browser_errors": [],
+  "event_connections": [
+    {
+      "cursor": "0",
+      "token_header_present": true
+    },
+    {
+      "cursor": "0",
+      "token_header_present": true
+    },
+    {
+      "cursor": "5",
+      "token_header_present": true
+    },
+    {
+      "cursor": "5",
+      "token_header_present": true
+    }
+  ],
+  "terminal_reload": true,
+  "fixtures_supplied": false,
+  "supported_required_fields": 23,
+  "required_fields": 24
+}

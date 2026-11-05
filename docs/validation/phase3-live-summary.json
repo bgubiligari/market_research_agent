@@ -1,0 +1,70 @@
+{
+  "status": "partial",
+  "elapsed_seconds": 41.2,
+  "budget": {
+    "reserved": {
+      "searches": 16,
+      "tavily_credits": 24,
+      "model_calls": 15,
+      "input_tokens": 56355,
+      "output_tokens": 11848,
+      "extracted_urls": 8
+    },
+    "limits": {
+      "searches": 24,
+      "extracted_urls": 20,
+      "tavily_credits": 60,
+      "model_calls": 28,
+      "input_tokens": 60000,
+      "output_tokens": 12000
+    }
+  },
+  "reconciled_metric_checks": {
+    "checked": 60,
+    "passed": 60
+  },
+  "summary": {
+    "companies": 4,
+    "financial_metrics": 60,
+    "available_metrics": 60,
+    "supported_findings": 17,
+    "missing_findings": 11,
+    "sources": 65
+  },
+  "date": "2026-10-31",
+  "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+  "execution": "FastAPI TestClient -> real LangGraph -> SEC/Nebius/Tavily; no fixtures supplied to research",
+  "reported_model_tokens": {
+    "prompt_tokens": 10500,
+    "completion_tokens": 4552,
+    "total_tokens": 15052
+  },
+  "missing_fields": {
+    "HSY": [
+      "products_brands",
+      "customers",
+      "positioning",
+      "pricing",
+      "recent_developments"
+    ],
+    "MDLZ": [
+      "geography",
+      "recent_developments"
+    ],
+    "KHC": [
+      "customers",
+      "pricing",
+      "recent_developments"
+    ],
+    "GIS": [
+      "recent_developments"
+    ]
+  },
+  "limitations": [
+    "Partial qualitative coverage; no completed live report established.",
+    "Citation quote validation does not independently prove entailment.",
+    "Reported consolidated financials include scope changes; fiscal dates differ.",
+    "Run used in-process HTTP test transport; external uvicorn socket/SSE browser streaming not live tested.",
+    "Later offline fix preserves prior findings and includes newly searched evidence in the one follow-up pass."
+  ]
+}
